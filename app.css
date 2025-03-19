@@ -56,29 +56,49 @@ ul{
   font-size: 12px;
 }
 
+/* ---------------------- COMPONENTS ---------------------- */
+
 .btn{
   font-weight: 400;
   font-size: 16px;
   text-decoration: none;
 }
 
-/* ---------------------- COMPONENTS ---------------------- */
-
 /* :link is not yet visited, while :visited that has been visited */
 .btn-primary:link, .btn-primary:visited{
-  color: #339af0;
+  color: #ffffff;
+  background-color: #339af0;
 }
 
 .btn-primary:hover, .btn-primary:active{
-  color: #1c7ed6;
+  color: #ffffff;
+  background-color: #1c7ed6;
 }
 
 .btn-secondary:link, .btn-secondary:visited{
-  color: #9775fa;
+  color: #ffffff;
+  background-color: #9775fa;
 }
 
 .btn-secondary:hover, .btn-secondary:active{
-  color: #7048e8;
+  color: #ffffff;
+  background-color: #7048e8;
+}
+
+.highlight{
+  color: #ffffff;
+}
+
+.highlight-primary{
+  background-color: #339af0
+}
+
+.highlight-secondary{
+  background-color: #9775fa;
+}
+
+.highlight-tertiary{
+  background-color:#ff922b;
 }
 
 /* ---------------------- SECTIONS ---------------------- */
@@ -99,6 +119,10 @@ text-align: center;
 
 .cta-section{
   text-align: center;
+}
+
+.cta-card{
+  background-color: #339af0;
 }
 
 /* ----------- FOOTER SECTIONS ----------- */
