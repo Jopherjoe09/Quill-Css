@@ -1,0 +1,40 @@
+
+------------- COLORS ------------- 
+
+  PRIMARY:
+  Tint: #d0ebff (Arctic)
+  Base Color: #339af0 (Sky Blue)
+  Shade: #1c7ed6 (Deep Sea)
+
+  SECONDARY:
+  Tint: #e5dbff (Moonlight Iris)
+  Base Color: #9775fa (Lavender)
+  Shade: #7048e8 (Velvet Night)
+
+  TERTIARY:
+  Tint: #ffe8cc (Dawn)
+  Base Color: #ff922b (Pumpkin)
+  Shade: #f76707 (Lava)
+
+  GREY:
+  Tint: #f1f3f5 (Pebble)
+  Base Color: #495057 (Slate)
+  Shade: #212529 (Graphite)
+
+------------- TYPHOGRRAPY ------------- 
+
+FONT-SIZE
+
+12px / 16px / 20px / 24px / 32px / 40px / 48px / 62px
+
+FONT WEIGHTS 
+
+400 / 700
+
+LINE HEIGHTS 
+
+1.2 / 1.5
+
+LETTER SPACING
+
+0 / -2px
