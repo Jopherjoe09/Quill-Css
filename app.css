@@ -62,6 +62,7 @@ ul{
   font-weight: 400;
   font-size: 16px;
   text-decoration: none;
+  padding: 15px 30px;
 }
 
 /* :link is not yet visited, while :visited that has been visited */
@@ -87,6 +88,7 @@ ul{
 
 .highlight{
   color: #ffffff;
+  padding: 5px 10px;
 }
 
 .highlight-primary{
@@ -99,6 +101,14 @@ ul{
 
 .highlight-tertiary{
   background-color:#ff922b;
+}
+
+.logo-md{
+  width: 100px;
+}
+
+.logo-sm{
+  width: 80px;
 }
 
 /* ---------------------- SECTIONS ---------------------- */
@@ -115,14 +125,21 @@ ul{
 text-align: center;
 }
 
-/* ----------- CTA SECTIONS ----------- */
-
-.cta-section{
-  text-align: center;
+.feature-img{
+  width: 400px;
 }
 
+/* ----------- CTA SECTIONS ----------- */
+
+/* .cta-section{
+
+} */
+
 .cta-card{
+  text-align: center;
   background-color: #339af0;
+  width: 1000px;
+  padding: 100px 200px;
 }
 
 /* ----------- FOOTER SECTIONS ----------- */
@@ -131,4 +148,7 @@ text-align: center;
   text-align: center;
 }
 
+.social-icons{
+  width: 20px;
+}
 
