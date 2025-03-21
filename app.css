@@ -8,6 +8,7 @@
   box-sizing: border-box;
 }
 
+
 body{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -137,16 +138,38 @@ ul{
 
 /* ---------------------- SECTIONS ---------------------- */
 
+/* ----------- NAV BAR ----------- */
+
+.navbar{
+  margin-bottom: 200px;
+}
+
+
 /* ----------- HERO SECTIONS ----------- */
 
 .hero-section{
   text-align: center;
+  margin-bottom: 300px;
+}
+
+.hero-heading{
+  margin-bottom: 10px;
+}
+
+.hero-paragraph{
+  margin-bottom: 50px;
 }
 
 /* ----------- FEATURE SECTIONS ----------- */
+.feature-section{
+  margin-bottom: 300px;
+}
+
+
 .features-main-heading{
   /* Text-align only works on the block elements */
 text-align: center;
+margin-bottom: 80px;
 }
 
 .feature-img{
@@ -155,9 +178,9 @@ text-align: center;
 
 /* ----------- CTA SECTIONS ----------- */
 
-/* .cta-section{
-
-} */
+.cta-section{
+  margin-bottom: 300px;
+}
 
 .cta-card{
   text-align: center;
