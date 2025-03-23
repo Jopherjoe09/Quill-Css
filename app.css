@@ -18,6 +18,12 @@ body{
   color: #495054;
 }
 
+.container{
+  width: 1200px;
+  /* The margin: 0(Top and Bottom) auto (Left and Right) Will make the content still center if it goes shrink */
+  margin: 0 auto;
+}
+
 h1, h2, h3, h4, h5{
   font-weight: 700;
   line-height: 1.2;
@@ -179,6 +185,10 @@ text-align: center;
 margin-bottom: 80px;
 }
 
+.feature-heading{
+  margin-bottom: 20px;
+}
+
 .feature-img{
   width: 400px;
 }
@@ -195,6 +205,11 @@ margin-bottom: 80px;
   width: 1000px;
   padding: 100px 200px;
   border-radius: 20px;
+  margin: 0 auto;
+}
+
+.cta-heading{
+  margin-bottom: 30px;
 }
 
 /* ----------- FOOTER SECTIONS ----------- */
