@@ -19,7 +19,7 @@ body{
 }
 
 .container{
-  width: 1200px;
+  max-width: 1200px;
   /* The margin: 0(Top and Bottom) auto (Left and Right) Will make the content still center if it goes shrink */
   margin: 0 auto;
 }
@@ -190,7 +190,9 @@ margin-bottom: 80px;
 }
 
 .feature-img{
-  width: 400px;
+  /* The max-width is will not affect the inline elements. It will only affect if you put a width:100% */
+  max-width: 400px;
+  width: 100%;
 }
 
 /* ----------- CTA SECTIONS ----------- */
@@ -202,7 +204,7 @@ margin-bottom: 80px;
 .cta-card{
   text-align: center;
   background-color: #339af0;
-  width: 1000px;
+  max-width: 1000px;
   padding: 100px 200px;
   border-radius: 20px;
   margin: 0 auto;
