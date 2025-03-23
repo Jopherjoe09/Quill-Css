@@ -10,6 +10,11 @@
   padding: 0;
 }
 
+html{
+
+  /* Added a font-size: 62.5% in html tag because it will calculate the rem to 10px (16 * 0.625 = 10px) */
+  font-size: 62.5%;
+}
 
 body{
   font-family: "Poppins", sans-serif;
@@ -34,34 +39,34 @@ h1, h2, h3, h4, h5{
 }
 
 h1{
-  font-size: 62px;
+  font-size: 6.2rem;
 }
 
 h2{
 
-  font-size: 48px;
+  font-size: 4.8rem;
 }
 
 h3{
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 h4{
-  font-size: 32px;
+  font-size: 3.2rem;
 }
 
 h5{
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 
 p{
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 a{
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.6rem;
   display: inline-block;
 }
 
@@ -74,16 +79,16 @@ span{
 }
 
 .small-text{
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 /* ---------------------- COMPONENTS ---------------------- */
 
 .btn{
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   text-decoration: none;
-  padding: 15px 30px;
+  padding: 1.5rem 3rem;
   border-radius: 8px;
 }
 
@@ -127,7 +132,7 @@ span{
 
 .highlight{
   color: #ffffff;
-  padding: 5px 10px;
+  padding: 0.5rem 1rem;
   border-radius: 4px;
 }
 
@@ -156,7 +161,7 @@ span{
 /* ----------- NAV BAR ----------- */
 
 .navbar{
-  margin-bottom: 200px;
+  margin-bottom: 20rem;
 }
 
 
@@ -164,31 +169,31 @@ span{
 
 .hero-section{
   text-align: center;
-  margin-bottom: 300px;
+  margin-bottom: 30rem;
 }
 
 .hero-heading{
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .hero-paragraph{
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 /* ----------- FEATURE SECTIONS ----------- */
 .feature-section{
-  margin-bottom: 300px;
+  margin-bottom: 30rem;
 }
 
 
 .features-main-heading{
   /* Text-align only works on the block elements */
 text-align: center;
-margin-bottom: 80px;
+margin-bottom: 8rem;
 }
 
 .feature-heading{
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .feature-img{
@@ -200,7 +205,7 @@ margin-bottom: 80px;
 /* ----------- CTA SECTIONS ----------- */
 
 .cta-section{
-  margin-bottom: 300px;
+  margin-bottom: 30rem;
 }
 
 .cta-card{
@@ -208,13 +213,13 @@ margin-bottom: 80px;
   background-color: #339af0;
   /* If you set a max width it will not exceed to the max-width that you put */
   max-width: 1000px;
-  padding: 100px 200px;
+  padding: 10rem 20rem;
   border-radius: 20px;
   margin: 0 auto;
 }
 
 .cta-heading{
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 /* ----------- FOOTER SECTIONS ----------- */
