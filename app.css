@@ -20,7 +20,9 @@ body{
 
 .container{
   max-width: 1200px;
-  /* The margin: 0(Top and Bottom) auto (Left and Right) Will make the content still center if it goes shrink */
+  /* Since the body which is the parent of this container class is 100% width, setting the container to 90% width will eat out the 90% width of the body */
+  width: 90%;
+    /* The margin: 0(Top and Bottom) auto (Left and Right) Will make the content still center if it goes shrink */
   margin: 0 auto;
 }
 
@@ -204,6 +206,7 @@ margin-bottom: 80px;
 .cta-card{
   text-align: center;
   background-color: #339af0;
+  /* If you set a max width it will not exceed to the max-width that you put */
   max-width: 1000px;
   padding: 100px 200px;
   border-radius: 20px;
