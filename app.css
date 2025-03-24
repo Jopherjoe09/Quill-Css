@@ -218,6 +218,8 @@ span{
 
 .navbar{
   height: var(--nav-height);
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -283,7 +285,9 @@ margin-bottom: 8rem;
 /* ----------- FOOTER SECTIONS ----------- */
 
 .footer{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .social-icons{
