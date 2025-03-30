@@ -235,6 +235,9 @@ span{
   min-height: 400px;
   text-align: center;
   margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-heading{
