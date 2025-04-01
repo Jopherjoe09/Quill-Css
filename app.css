@@ -270,14 +270,13 @@ margin-bottom: 8rem;
 .features-grid-container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  row-gap: 15rem;
+  column-gap: 5rem;
   /* justify-items is specified only for display grid */
   /* This is just a testing */
   justify-items: center;
   align-items: center;
 
-  
-  row-gap: 15rem;
-  column-gap: 5rem;
 }
 
 .feature-heading{
