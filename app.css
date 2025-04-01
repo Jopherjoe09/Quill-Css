@@ -270,6 +270,8 @@ margin-bottom: 8rem;
 .features-grid-container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  row-gap: 15rem;
+  column-gap: 5rem;
 }
 
 .feature-heading{
